@@ -28,10 +28,10 @@ a:hover {
 
 .columnL {
   width: 40%;
-  padding-left: 10%;
+  padding-left: 2%;
   display: inline-block;
   float: left;
-  font-size: 25px;
+  font-size: 18px;
   font-family: Helvetica;
   color: #000047;
   line-height: 1.5;
@@ -39,15 +39,15 @@ a:hover {
 }
 
 .columnL p {
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .columnR {
   width: 40%;
-  padding-left: 10%;
+  padding-left: 2%;
   display: inline-block;
   float: right;
-  font-size: 25px;
+  font-size: 18px;
   font-family: Helvetica;
   color: #000047;
   line-height: 1.5;
@@ -55,7 +55,7 @@ a:hover {
 }
 
 .columnR p {
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .tourneyone {
@@ -69,7 +69,7 @@ a:hover {
   display:flex;
   flex-direction:column;
   justify-content:center;
-  width:180px;
+  width:130px;
   list-style:none;
   padding:0;
 }
@@ -87,8 +87,8 @@ a:hover {
 
 li.game{
   text-align: right;
-  padding-right:20px;
-  font-size: 13px;
+  padding-right:10px;
+  font-size: 10px;
   color: #000047;
 }
 
@@ -125,7 +125,7 @@ li.game:hover{
   display:flex;
   flex-direction:column;
   justify-content:center;
-  width:180px;
+  width:130px;
   list-style:none;
   padding:0;
 }
@@ -138,8 +138,8 @@ li.game:hover{
   }
 
 li.gametwo{
-  padding-left:20px;
-  font-size: 15px;
+  padding-left:10px;
+  font-size: 10px;
   color: #000047;
 }
 
