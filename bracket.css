@@ -92,9 +92,9 @@ li.game{
   color: #000047;
 }
 
-li.game:hover{
-  font-weight: bold;
-}
+/*li.game:hover{*/
+/*  font-weight: bold;*/
+/*}*/
   /*li.game.winner{
     font-weight:bold;
   }*/
@@ -143,9 +143,9 @@ li.gametwo{
   color: #000047;
 }
 
-li.gametwo:hover {
-  font-weight: bold;
-}
+/*li.gametwo:hover {*/
+/*  font-weight: bold;*/
+/*}*/
 
   li.gametwo.winner{
     font-weight:bold;
