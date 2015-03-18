@@ -28,7 +28,7 @@ a:hover {
 
 .columnL {
   width: 40%;
-  padding-left: 2%;
+  /*padding-left: 2%;*/
   display: inline-block;
   float: left;
   font-size: 18px;
@@ -44,7 +44,7 @@ a:hover {
 
 .columnR {
   width: 40%;
-  padding-left: 2%;
+  /*padding-left: 2%;*/
   display: inline-block;
   float: right;
   font-size: 18px;
