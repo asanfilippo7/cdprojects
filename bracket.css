@@ -1,7 +1,7 @@
 body {
   display: inline-block;
   font-family: Helvetica;
-  font-size:small;
+  font-size: 13px;
   padding:10px;
   line-height:1.4em;
   -webkit-touch-callout: none;
@@ -10,6 +10,15 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  background: #fff;
+  /* background: #1B1851;
+  background: -moz-linear-gradient(top, #1B1851 0%, #121037 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1B1851), color-stop(100%,#121037));
+  background: -webkit-linear-gradient(top, #1B1851 0%,#121037 100%);
+  background: -o-linear-gradient(top, #1B1851 0%,#121037 100%);
+  background: -ms-linear-gradient(top, #1B1851 0%,#121037 100%);
+  background: linear-gradient(to bottom, #1B1851 0%,#121037 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1B1851', endColorstr='#121037',GradientType=0 ); */ 
 }
 
 a {
@@ -28,34 +37,34 @@ a:hover {
 
 .columnL {
   width: 40%;
-  padding-left: 2%;
+  padding-left: 10%;
   display: inline-block;
   float: left;
-  font-size: 18px;
+  font-size: 25px;
   font-family: Helvetica;
-  color: #000047;
+  color: #fff;
   line-height: 1.5;
   margin-top: 3%;
 }
 
 .columnL p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .columnR {
   width: 40%;
-  padding-left: 2%;
+  padding-left: 10%;
   display: inline-block;
   float: right;
-  font-size: 18px;
+  font-size: 25px;
   font-family: Helvetica;
-  color: #000047;
+  color: #fff;
   line-height: 1.5;
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 .columnR p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .tourneyone {
@@ -88,7 +97,6 @@ a:hover {
 li.game{
   text-align: right;
   padding-right:10px;
-  font-size: 10px;
   color: #000047;
 }
 
@@ -103,15 +111,15 @@ li.game{
     margin-left:5px;
   }
 
-  li.game-top{ border-bottom:1px solid #000047;}
+  li.game-top{ border-bottom:2px solid #000047;}
 
   li.game-spacer{ 
-    border-left:1px solid #000047;
+    border-left:2px solid #000047;
     min-height:40px;
   }
 
   li.game-bottom{ 
-    border-top:1px solid #000047;
+    border-top: 2px solid #000047;
   }
 
   .tourneytwo {
@@ -139,7 +147,6 @@ li.game{
 
 li.gametwo{
   padding-left:10px;
-  font-size: 10px;
   color: #000047;
 }
 
@@ -155,21 +162,44 @@ li.gametwo{
     margin-right:5px;
   }
 
-  li.gametwo-top{ border-bottom:1px solid #000047; }
+  li.gametwo-top{ border-bottom: 2px solid #000047; }
 
   li.gametwo-spacer{ 
-    border-right:1px solid #000047;
+    border-right:2px solid #000047;
     min-height:40px;
   }
 
   li.gametwo-bottom{ 
-    border-top:1px solid #000047;
+    border-top:2px solid #000047;
   }
-
   .future span {
-    color: #fff;
+    visibility: hidden;
   }
 
   .future a {
-    color: #fff;
+    visibility: hidden;
+  }
+
+  #header {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 78px;
+    text-align: center;
+    color: #1B1851;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+    white-space: nowrap;
+  }
+
+  h2 {
+    text-align: left;
+    color: #E65C00;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    text-transform: uppercase;
   }
