@@ -115,7 +115,7 @@ li.game{
 
   li.game-spacer{ 
     border-left:2px solid #000047;
-    min-height:50px;
+    min-height:40px;
   }
 
   li.game-bottom{ 
@@ -166,7 +166,7 @@ li.gametwo{
 
   li.gametwo-spacer{ 
     border-right:2px solid #000047;
-    min-height:50px;
+    min-height:40px;
   }
 
   li.gametwo-bottom{ 
