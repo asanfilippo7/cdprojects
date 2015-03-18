@@ -37,10 +37,10 @@ a:hover {
 
 .columnL {
   width: 40%;
-  padding-left: 10%;
+  padding-left: 2%;
   display: inline-block;
   float: left;
-  font-size: 25px;
+  font-size: 18px;
   font-family: Helvetica;
   color: #fff;
   line-height: 1.5;
@@ -48,15 +48,15 @@ a:hover {
 }
 
 .columnL p {
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .columnR {
   width: 40%;
-  padding-left: 10%;
+  padding-left: 2%;
   display: inline-block;
   float: right;
-  font-size: 25px;
+  font-size: 18px;
   font-family: Helvetica;
   color: #fff;
   line-height: 1.5;
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .columnR p {
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .tourneyone {
