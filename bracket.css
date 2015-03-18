@@ -39,7 +39,7 @@ a:hover {
 }
 
 .columnL p {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .columnR {
@@ -51,11 +51,11 @@ a:hover {
   font-family: Helvetica;
   color: #000047;
   line-height: 1.5;
-  margin-top: 3%;
+  margin-top: 1%;
 }
 
 .columnR p {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .tourneyone {
@@ -88,13 +88,13 @@ a:hover {
 li.game{
   text-align: right;
   padding-right:10px;
-  font-size: 9px;
+  font-size: 10px;
   color: #000047;
 }
 
-li.game:hover{
-  font-weight: bold;
-}
+/*li.game:hover{*/
+/*  font-weight: bold;*/
+/*}*/
   /*li.game.winner{
     font-weight:bold;
   }*/
@@ -139,13 +139,13 @@ li.game:hover{
 
 li.gametwo{
   padding-left:10px;
-  font-size: 9px;
+  font-size: 10px;
   color: #000047;
 }
 
-li.gametwo:hover {
-  font-weight: bold;
-}
+/*li.gametwo:hover {*/
+/*  font-weight: bold;*/
+/*}*/
 
   li.gametwo.winner{
     font-weight:bold;
