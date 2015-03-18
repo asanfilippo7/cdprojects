@@ -88,7 +88,7 @@ a:hover {
 li.game{
   text-align: right;
   padding-right:10px;
-  font-size: 7px;
+  font-size: 10px;
   color: #000047;
 }
 
@@ -139,7 +139,7 @@ li.game:hover{
 
 li.gametwo{
   padding-left:10px;
-  font-size: 7px;
+  font-size: 10px;
   color: #000047;
 }
 
