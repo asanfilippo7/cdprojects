@@ -1,7 +1,7 @@
 body {
   display: inline-block;
   font-family: Helvetica;
-  font-size: 10px;
+  font-size: 13px;
   padding:10px;
   line-height:1.4em;
   -webkit-touch-callout: none;
@@ -37,10 +37,10 @@ a:hover {
 
 .columnL {
   width: 40%;
-  padding-left: 1%;
+  padding-left: 10%;
   display: inline-block;
   float: left;
-  font-size: 9px;
+  font-size: 25px;
   font-family: Helvetica;
   color: #fff;
   line-height: 1.5;
@@ -48,15 +48,15 @@ a:hover {
 }
 
 .columnL p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .columnR {
   width: 40%;
-  padding-left: 1%;
+  padding-left: 10%;
   display: inline-block;
   float: right;
-  font-size: 9px;
+  font-size: 25px;
   font-family: Helvetica;
   color: #fff;
   line-height: 1.5;
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .columnR p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .tourneyone {
@@ -188,7 +188,7 @@ li.gametwo{
   }
 
   h1 {
-    font-size: 55px;
+    font-size: 78px;
     text-align: center;
     color: #1B1851;
     text-transform: uppercase;
@@ -199,7 +199,7 @@ li.gametwo{
   h2 {
     text-align: left;
     color: #E65C00;
-    font-size: 25px;
+    font-size: 30px;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     text-transform: uppercase;
   }
