@@ -188,7 +188,7 @@ li.gametwo{
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 55px;
     text-align: center;
     color: #1B1851;
     text-transform: uppercase;
@@ -199,7 +199,7 @@ li.gametwo{
   h2 {
     text-align: left;
     color: #E65C00;
-    font-size: 15px;
+    font-size: 35px;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     text-transform: uppercase;
   }
