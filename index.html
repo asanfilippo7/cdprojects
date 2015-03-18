@@ -1,3 +1,6 @@
+
+<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -5,110 +8,117 @@
 
 <TITLE>Brackets</TITLE>
 <link rel="stylesheet" href="bracket.css">
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">
+ $(".teamStat").click(function() {
+ 	var teamName = $(".teamStat").attr("id");
+ 	console.log("team");
+ });
+</script>
 </head>
 
 <body>
-
-<h1>2015 NCAA Tournament</h1>
+<div id="header">
+	<h2 style="margin-left: 20px; margin-bottom: -20px;">The Cavalier Daily's</h2>
+	<h1>2015 NCAA Tournament Bracket</h1>
+</div>
 <div class="tourneytwo">
 	<ul class="roundtwo roundtwo-1">
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here">Kentucky</a></li>
+		<li class="gametwo gametwo-top"><a href="#kentucky">1 Kentucky</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here2">Manhattan/Hampton</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#manhattan">16 Manhattan/Hampton</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here3">Cincinnati</a></li>
+		<li class="gametwo gametwo-top"><a href="#cincinnati">8 Cincinnati</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here3">Purdue</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#purdue">9 Purdue</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here5">West Virginia</a></li>
+		<li class="gametwo gametwo-top"><a href="#westvirginia"5 >West Virginia</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here6">Buffalo</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#buffalo">12 Buffalo</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here7">Maryland</a></li>
+		<li class="gametwo gametwo-top"><a href="#maryland">4 Maryland</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here8">Valparaiso</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#valparaiso">13 Valparaiso</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here9">Butler</a></li>
+		<li class="gametwo gametwo-top"><a href="#butler">6 Butler</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here10">Texas</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#texas">11 Texas</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here11">Notre Dame</a></li>
+		<li class="gametwo gametwo-top"><a href="#notredame">3 Notre Dame</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here12">Northeastern</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#northeastern">14 Northeastern</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here13">Wichita State</a></li>
+		<li class="gametwo gametwo-top"><a href="#wichitastate">7 Wichita State</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here14">Indiana</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#indiana">10 Indiana</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here15">Kansas</a></li>
+		<li class="gametwo gametwo-top"><a href="#kansas">2 Kansas</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here16">New Mexico State</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#newmexicostate">15 New Mexico State</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here">Wisconsin</a></li>
+		<li class="gametwo gametwo-top"><a href="#wisconsin">1 Wisconsin</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here2">Coastal Carolina</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#coastalcarolina">16 Coastal Carolina</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here3">Oregon</a></li>
+		<li class="gametwo gametwo-top"><a href="#oregon">8 Oregon</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here3">Oklahoma State</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#oklahomastate">9 Oklahoma State</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here5">Arkansas</a></li>
+		<li class="gametwo gametwo-top"><a href="#arkansas">5 Arkansas</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here6">Wofford</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#wofford">12 Wofford</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here7">North Carolina</a></li>
+		<li class="gametwo gametwo-top"><a href="#northcarolina">4 North Carolina</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here8">Harvard</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#harvard">13 Harvard</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here9">Xavier</a></li>
+		<li class="gametwo gametwo-top"><a href="#xavier">6 Xavier</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here10">BYU/Ole Miss</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#byu">11 BYU/Ole Miss</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here11">Baylor</a></li>
+		<li class="gametwo gametwo-top"><a href="#baylor">3 Baylor</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here12">Georgia State</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#georgiastate">14 Georgia State</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here13">VCU</a></li>
+		<li class="gametwo gametwo-top"><a href="#vcu">7 VCU</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here14">Ohio State</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#ohiostate">10 Ohio State</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="gametwo gametwo-top"><a href="#here15">Arizona</a></li>
+		<li class="gametwo gametwo-top"><a href="#arizona">2 Arizona</a></li>
 		<li class="gametwo gametwo-spacer">&nbsp;</li>
-		<li class="gametwo gametwo-bottom"><a href="#here16">Texas Southern</a></li>
+		<li class="gametwo gametwo-bottom"><a href="#texassouthern">15 Texas Southern</a></li>
 
 		<li class="spacer">&nbsp;</li>
 	</ul>
@@ -214,104 +224,111 @@
 		
 		<li class="spacer">&nbsp;</li>
 	</ul>		
+	<ul class="roundtwo roundtwo-6">
+		<li class="spacer">&nbsp;</li>
+
+		<li class="gametwo gametwo-top future"><a href="#">Team Name</a><span>Score</span></li>
+
+		<li class="spacer">&nbsp;</li>
+	</ul>
 </div>
 <div class="tourneyone">
 	<ul class="round round-1">
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here17">Villanova</a></li>
+		<li class="game game-top"><a href="#villanova">1 Villanova</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here18">Lafayette</a></li>
+		<li class="game game-bottom"><a href="#lafayette">16 Lafayette</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here19">NC State</a></li>
+		<li class="game game-top"><a href="#ncstate">8 NC State</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here20">LSU</a></li>
+		<li class="game game-bottom"><a href="#lsu">9 LSU</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here21">Northern Iowa</a></li>
+		<li class="game game-top"><a href="#northerniowa">5 Northern Iowa</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here22">Wyoming</li>
+		<li class="game game-bottom"><a href="#wyoming">12 Wyoming</li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here23">Louisville</a></li>
+		<li class="game game-top"><a href="#louisville">4 Louisville</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here24">UC Irvine</a></li>
+		<li class="game game-bottom"><a href="#ucirvine">13 UC Irvine</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here25">Providence</a></li>
+		<li class="game game-top"><a href="#providence">6 Providence</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here26">Boise State/Dayton</a></li>
+		<li class="game game-bottom"><a href="#boisestate">11 Boise State/Dayton</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here27">Oklahoma</a></li>
+		<li class="game game-top"><a href="#oklahoma">3 Oklahoma</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here28">Albany</a></li>
+		<li class="game game-bottom"><a href="#albany">14 Albany</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here29">Michigan State</a></li>
+		<li class="game game-top"><a href="#michiganstate">7 Michigan State</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here30">Georgia</a></li>
+		<li class="game game-bottom"><a href="#georgia">10 Georgia</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here31">Virginia</a></li>
+		<li class="game game-top"><a href="#virginia">2 Virginia</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here32">Belmont</a></li>
+		<li class="game game-bottom"><a href="#belmont">15 Belmont</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here17">Duke</a></li>
+		<li class="game game-top"><a href="#duke">1 Duke</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here18">UNF/Robert Morris</a></li>
+		<li class="game game-bottom"><a href="#unf">16 UNF/Robert Morris</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here19">San Diego State</a></li>
+		<li class="game game-top"><a href="#sandiegostate">8 San Diego State</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here20">St. John's</a></li>
+		<li class="game game-bottom"><a href="#stjohns">9 St. John's</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here21">Utah</a></li>
+		<li class="game game-top"><a href="#utah">5 Utah</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here22">SF Austin</a></li>
+		<li class="game game-bottom"><a href="#sfaustin">12 SF Austin</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here23">Georgetown</a></li>
+		<li class="game game-top"><a href="#georgetown">4 Georgetown</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here24">Eastern Washington</a></li>
+		<li class="game game-bottom"><a href="#easternwashington">13 Eastern Washington</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here25">SMU</a></li>
+		<li class="game game-top"><a href="#smu">6 SMU</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here26">UCLA</a></li>
+		<li class="game game-bottom"><a href="#ucla">11 UCLA</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here27">Iowa State</a></li>
+		<li class="game game-top"><a href="#iowastate">3 Iowa State</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here28">UAB</a></li>
+		<li class="game game-bottom"><a href="#uab">14 UAB</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here29">Iowa</a></li>
+		<li class="game game-top"><a href="#iowa">7 Iowa</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here30">Davidson</a></li>
+		<li class="game game-bottom"><a href="#davidson">10 Davidson</a></li>
 
 		<li class="spacer">&nbsp;</li>
 		
-		<li class="game game-top"><a href="#here31">Gonzaga</a></li>
+		<li class="game game-top"><a href="#gonzaga">2 Gonzaga</a></li>
 		<li class="game game-spacer">&nbsp;</li>
-		<li class="game game-bottom"><a href="#here32">North Dakota State</a></li>
+		<li class="game game-bottom"><a href="#northdakotastate">15 North Dakota State</a></li>
 
 		<li class="spacer">&nbsp;</li>
 	</ul>
@@ -417,28 +434,71 @@
 		
 		<li class="spacer">&nbsp;</li>
 	</ul>		
+	<ul class="round round-6">
+		<li class="spacer">&nbsp;</li>
+
+		<li class="game game-top future"><a href="#">Team Name</a><span>Score</span></li>
+
+		<li class="spacer">&nbsp;</li>
+	</ul>
 </div>
 
-<div class="columnL">
-<a name="here"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here2"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here3"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here4"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here5"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here6"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here7"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here8"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here9"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here10"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here11"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here12"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here13"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here14"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here15"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
-<a name="here16"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<div class="columnL" style="clear: both;">
+<h2>Midwest</h2>
+<a name="kentucky"><details><summary>1 Kentucky</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="manhattan"><details><summary>16 Manhattan</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="cincinnati"><details><summary>8 Cincinnati</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="purdue"><details><summary>9 Purdue</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="westvirginia"><details><summary>5 West Virginia</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="buffalo"><details><summary>12 Buffalo</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="maryland"><details><summary>4 Maryland</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="valparaiso"><details><summary>13 Valparaiso</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="butler"><details><summary>6 Butler</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="texas"><details><summary>11 Texas</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="notredame"><details><summary>3 Notre Dame</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="northeastern"><details><summary>14 Northeastern</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="wichitastate"><details><summary>7 Wichita State</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="indiana"><details><summary>10 Indiana</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="kansas"><details><summary>2 Kansas</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="newmexicostate"><details><summary>15 New Mexico State</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<h2>West</h2>
+<a name="wisconsin"><details><summary>1 Wisconsin</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="coastalcarolina"><details><summary>16 Coastal Carolina</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="oregon"><details><summary>8 Oregon</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="oklahomastate"><details><summary>9 Oklahoma State</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="arkansas"><details><summary>5 Arkansas</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="wofford"><details><summary>12 Wofford</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="northcarolina"><details><summary>4 North Carolina</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="harvard"><details><summary>13 Harvard</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="xavier"><details><summary>6 Xavier</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="byu"><details><summary>11 BYU/Ole Miss</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="baylor"><details><summary>3 Baylor</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="georgiastate"><details><summary>14 Georgia State</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="vcu"><details><summary>7 VCU</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="ohiostate"><details><summary>10 Ohio State</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="arizona"><details><summary>2 Arizona</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="texassouthern"><details><summary>15 Texas Southern</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
 </div>
 
 <div class="columnR">
+<h2>East</h2>
+<a name="here17"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here18"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here19"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here20"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here21"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here22"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here23"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here24"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here25"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here26"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here27"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here28"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here29"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here30"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here31"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<a name="here32"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
+<h2>South</h2>
 <a name="here17"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
 <a name="here18"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
 <a name="here19"><details><summary>Team Name</summary><p>Pre-season stats for Team Name: 0-0-0</p></details></a>
