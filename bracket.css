@@ -1,7 +1,7 @@
 body {
   display: inline-block;
   font-family: Helvetica;
-  font-size: 13px;
+  font-size: 10px;
   padding:10px;
   line-height:1.4em;
   -webkit-touch-callout: none;
@@ -30,10 +30,10 @@ a:hover {
   color: #E65C00;
 }
 
-.spacers {
+/*.spacers {
   height:800px;
   width: 100%;
-}
+}*/
 
 .columnL {
   width: 40%;
@@ -115,7 +115,7 @@ li.game{
 
   li.game-spacer{ 
     border-left:2px solid #000047;
-    min-height:40px;
+    min-height:45px;
   }
 
   li.game-bottom{ 
@@ -166,7 +166,7 @@ li.gametwo{
 
   li.gametwo-spacer{ 
     border-right:2px solid #000047;
-    min-height:40px;
+    min-height:45px;
   }
 
   li.gametwo-bottom{ 
