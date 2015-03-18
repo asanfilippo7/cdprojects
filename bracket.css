@@ -69,7 +69,7 @@ a:hover {
   display:flex;
   flex-direction:column;
   justify-content:center;
-  width:120px;
+  width:130px;
   list-style:none;
   padding:0;
 }
@@ -125,7 +125,7 @@ li.game:hover{
   display:flex;
   flex-direction:column;
   justify-content:center;
-  width:120px;
+  width:130px;
   list-style:none;
   padding:0;
 }
