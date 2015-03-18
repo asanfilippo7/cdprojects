@@ -72,6 +72,7 @@ a:hover {
   flex-direction:row-reverse;
   float: right;
   margin-right: 10px;
+  margin-top: 1%;
   width: 45%;
 }
 .round{
