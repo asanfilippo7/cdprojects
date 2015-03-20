@@ -103,10 +103,12 @@ li.game{
 /*li.game:hover{*/
 /*  font-weight: bold;*/
 /*}*/
-  /*li.game.winner{
+
+li.game.winner{
     font-weight:bold;
-  }*/
-  li.game span{
+  }
+  
+li.game span{
     float:left;
     margin-left:5px;
   }
