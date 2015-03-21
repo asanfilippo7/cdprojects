@@ -1,7 +1,7 @@
 body {
   display: inline-block;
   font-family: Helvetica;
-  font-size: 8px;
+  font-size: 10px;
   padding:10px;
   line-height:1.4em;
   -webkit-touch-callout: none;
@@ -47,8 +47,8 @@ a:hover {
   margin-top: 3%;
 }
 
-.columnL table {
-  font-size: 15px;
+.columnL p {
+  font-size: 20px;
 }
 
 .columnR {
@@ -63,8 +63,8 @@ a:hover {
   margin-top: 3%;
 }
 
-.columnR table {
-  font-size: 15px;
+.columnR p {
+  font-size: 20px;
 }
 
 .tourneyone {
@@ -103,12 +103,10 @@ li.game{
 /*li.game:hover{*/
 /*  font-weight: bold;*/
 /*}*/
-
-li.game.winner{
+  /*li.game.winner{
     font-weight:bold;
-  }
-  
-li.game span{
+  }*/
+  li.game span{
     float:left;
     margin-left:5px;
   }
@@ -204,4 +202,23 @@ li.gametwo{
     font-size: 20px;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     text-transform: uppercase;
+  }
+
+  .featured {
+    text-align: center;
+    width:100%;
+    margin-top: 0 auto;
+    height:auto;
+  }
+
+  .hn {
+    font-size:20px;
+    color:#1B1851;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+
+  .ft {
+   font-size:20px;
+    color:#E65C00;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
   }
