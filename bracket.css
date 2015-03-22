@@ -103,7 +103,7 @@ li.game{
 /*li.game:hover{*/
 /*  font-weight: bold;*/
 /*}*/
-  li.game.winner, li.game.winner.a {
+  li.game.winner, a.winner {
     font-weight:bold;
     color: #E65C00;
   }
