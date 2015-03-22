@@ -155,7 +155,7 @@ li.gametwo{
 /*  font-weight: bold;*/
 /*}*/
 
-  li.gametwo.winner{
+  li.gametwo.winner, li.gametwo.winner a{
     font-weight:bold;
     color: #E65C00;
   }
